@@ -28,9 +28,9 @@ A multi-client online examination application built with low-level Python TCP so
 
 | Member | Role | Owns |
 |---|---|---|
-| Member 1 | Application development | TCP exam server and client, protocol, question bank, results |
-| Member 2 | Network infrastructure and SDN | Mininet topology, Ryu controller, static/dynamic routing |
-| Member 3 | Integration, traffic and evaluation | Running the app in Mininet, UDP congestion, experiments, analysis, documentation |
+| Joshitha Kornu | Application development | TCP exam server and client, protocol, question bank, results |
+| Jeevitha | Network infrastructure and SDN | Mininet topology, Ryu controller, static/dynamic routing |
+| Karthik K R | Integration, traffic and evaluation | Running the app in Mininet, UDP congestion, experiments, analysis, documentation |
 
 ---
 
