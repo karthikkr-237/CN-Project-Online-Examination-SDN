@@ -1,0 +1,14 @@
+Scenario 2 - congested + STATIC routing (EXAM_MODE=static)
+Captured during the 9 Mbps UDP flood, while the three exam clients were running.
+
+mininet> sh ovs-ofctl -O OpenFlow13 dump-flows s1 | grep tp_dst=5000
+ cookie=0xa11ce, duration=107.383s, table=0, n_packets=39, n_bytes=3469, priority=300,tcp,nw_src=10.0.0.1,nw_dst=10.0.0.4,tp_dst=5000 actions=output:5
+ cookie=0xa11ce, duration=107.383s, table=0, n_packets=49, n_bytes=4432, priority=300,tcp,nw_src=10.0.0.2,nw_dst=10.0.0.4,tp_dst=5000 actions=output:5
+ cookie=0xa11ce, duration=107.383s, table=0, n_packets=44, n_bytes=4005, priority=300,tcp,nw_src=10.0.0.3,nw_dst=10.0.0.4,tp_dst=5000 actions=output:5
+
+mininet> sh ovs-ofctl -O OpenFlow13 dump-flows s3
+(empty - no rules installed on S3)
+
+Interpretation:
+- Exam TCP/5000 traffic stays on the primary port 5 (S1 -> S2) and shares the congested link with the UDP flood.
+- No alternate-path rules exist on S3. The static controller never rerouted (no [SDN] events in ryu_static.log).

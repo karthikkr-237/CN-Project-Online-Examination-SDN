@@ -1,0 +1,27 @@
+=======================================================
+ONLINE EXAMINATION NETWORK - SERVER
+=======================================================
+Listening on TCP 0.0.0.0:5000
+Questions: 12 | Duration: 120s
+Results file: /home/kali/CN-Project/CN-Project-Online-Examination-SDN/results/normal/server_results.txt
+Controller URL: not set
+Auto-start: exam begins when 3 students join.
+[JOINED] 10.0.0.1 from ('10.0.0.1', 35712) (total joined: 1)
+[JOINED] 10.0.0.2 from ('10.0.0.2', 43470) (total joined: 2)
+[JOINED] 10.0.0.3 from ('10.0.0.3', 42630) (total joined: 3)
+
+=======================================================
+[EXAM STARTED] All lobby students may begin.
+Duration: 120 seconds
+Late joining: enabled until the common deadline
+Deadline: 2026-11-17 09:08:45
+=======================================================
+[SAVED] Result for 10.0.0.1
+[RESULT] 10.0.0.1: 2/12, attempted=12, status=completed
+[SAVED] Result for 10.0.0.2
+[RESULT] 10.0.0.2: 3/12, attempted=12, status=completed
+[SAVED] Result for 10.0.0.3
+[RESULT] 10.0.0.3: 4/12, attempted=12, status=completed
+
+[DEADLINE] The common exam deadline has passed.
+[DONE] Results are stored in: /home/kali/CN-Project/CN-Project-Online-Examination-SDN/results/normal/server_results.txt

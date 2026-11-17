@@ -1,0 +1,4 @@
+scenario,samples,clients_completed,mean_ms,median_ms,p95_ms,max_ms,jain_fairness,udp_receiver_loss,per_student_mean_ms
+normal,36,3,41.9,28.6,134.1,154.1,0.997,no UDP,h1=43.5 h2=43.5 h3=38.6
+static,36,3,478.8,165.2,2225.7,3151.2,0.918,36%,h1=327.6 h2=721.3 h3=387.4
+dynamic,24,2,39.7,36.3,55.3,94.9,0.994,34%,h1=36.5 h2=42.9

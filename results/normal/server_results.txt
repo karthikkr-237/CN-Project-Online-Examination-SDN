@@ -1,0 +1,35 @@
+[
+    {
+        "name": "10.0.0.1",
+        "address": "10.0.0.1",
+        "score": 2,
+        "total": 12,
+        "attempted": 12,
+        "status": "completed",
+        "joined_at": "2026-11-17T09:06:26",
+        "exam_started_at": "2026-11-17T09:06:45",
+        "finished_at": "2026-11-17T09:07:07"
+    },
+    {
+        "name": "10.0.0.2",
+        "address": "10.0.0.2",
+        "score": 3,
+        "total": 12,
+        "attempted": 12,
+        "status": "completed",
+        "joined_at": "2026-11-17T09:06:39",
+        "exam_started_at": "2026-11-17T09:06:45",
+        "finished_at": "2026-11-17T09:07:10"
+    },
+    {
+        "name": "10.0.0.3",
+        "address": "10.0.0.3",
+        "score": 4,
+        "total": 12,
+        "attempted": 12,
+        "status": "completed",
+        "joined_at": "2026-11-17T09:06:45",
+        "exam_started_at": "2026-11-17T09:06:45",
+        "finished_at": "2026-11-17T09:07:12"
+    }
+]
